@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags: []
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - Pacan
+  - Ground
+  - Platform
+  - Ladder
+  - Enemy
+  - Item
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 1899097363
+    locked: 0
+  - name: Platforms
+    uniqueID: 2269455805
+    locked: 0
+  - name: Enemies
+    uniqueID: 1316200107
+    locked: 0
+  - name: Pacan
+    uniqueID: 300278529
+    locked: 0
+  - name: Items
+    uniqueID: 2952107823
+    locked: 0
+  - name: Bullets
+    uniqueID: 3041583497
+    locked: 0
+  - name: Foreground
+    uniqueID: 3705147207
+    locked: 0
