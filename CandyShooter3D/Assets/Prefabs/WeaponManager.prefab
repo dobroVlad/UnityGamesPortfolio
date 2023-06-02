@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7058501063479207989
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7058501063479207991}
+  - component: {fileID: 7058501063479207988}
+  m_Layer: 0
+  m_Name: WeaponManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7058501063479207991
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7058501063479207989}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.0028105583, y: 2.2770727, z: 0.14603734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7058501063479207988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7058501063479207989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138884f36c569784ab1a7ecd548e5ca6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _weaponData:
+  - _type: 1
+    _projectileDamage: 10
+    _projectileShot: 1
+    _bulletSpeed: 16
+    _fireRate: 0.3
+    _aimZoomAngle: 40
+    _offset: 2
+    _recoilAngle: 6
+    _magazineCapacity: 30
+    _reloadBullets: 30
+    _prefabWeapon: {fileID: 5161866247255962462, guid: 32c627650f107e7469c3878d7814b3fb, type: 3}
+    _prefabBullets:
+    - {fileID: 2651898944463761947, guid: d224ce820b261be4c801b1cec98c35e1, type: 3}
+    - {fileID: 2905460347181671800, guid: 4798070990299524fbd318b9100fa335, type: 3}
+    - {fileID: 4986485753177860471, guid: bad636c525ab1d5418aed2682d92db10, type: 3}
+    - {fileID: 4186048668926128132, guid: 04172025a000c8044ad5ecbbcb27ed33, type: 3}
+    - {fileID: 6241181140692523534, guid: 156a378c339c2c14e8a74b6ba472894d, type: 3}
+    _uiSlotPicture: {fileID: 21300000, guid: a74513327fe0bb64f84a8a9dd308c26d, type: 3}
+  - _type: 2
+    _projectileDamage: 3
+    _projectileShot: 12
+    _bulletSpeed: 12
+    _fireRate: 0.7
+    _aimZoomAngle: 50
+    _offset: 5
+    _recoilAngle: 12
+    _magazineCapacity: 10
+    _reloadBullets: 2
+    _prefabWeapon: {fileID: 2662094394877791372, guid: 6e550154fcdbadf41849b904e49ea5a7, type: 3}
+    _prefabBullets:
+    - {fileID: 801716981379509732, guid: 986ccd7d55e02164191c92b89b983857, type: 3}
+    _uiSlotPicture: {fileID: 21300000, guid: 69f53d852ed033a4381eec40950a51b8, type: 3}
+  - _type: 0
+    _projectileDamage: 0
+    _projectileShot: 0
+    _bulletSpeed: 0
+    _fireRate: 0
+    _aimZoomAngle: 0
+    _offset: 0
+    _recoilAngle: 0
+    _magazineCapacity: 0
+    _reloadBullets: 0
+    _prefabWeapon: {fileID: 0}
+    _prefabBullets: []
+    _uiSlotPicture: {fileID: 21300000, guid: f9cf9e4c64a83f0469a674f3a64f850a, type: 3}
+  _grenadeData:
+  - _type: 1
+    _prefab: {fileID: 1935668130406584776, guid: 6d04edfcd6e7d374e8209a925f72a28a, type: 3}
+    _explosionDamage: 6
+    _damageRange: 3
+    _explosionDelay: 4
+    _uiSlotPicture: {fileID: 21300000, guid: 7bfd2634be690b541aafc471273568a8, type: 3}
+  - _type: 0
+    _prefab: {fileID: 0}
+    _explosionDamage: 0
+    _damageRange: 0
+    _explosionDelay: 0
+    _uiSlotPicture: {fileID: 21300000, guid: 6c1b532c6cd497d4f96128c3179ef7a3, type: 3}

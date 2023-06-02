@@ -1,0 +1,278 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6261578174991850984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9087415584413663119}
+  m_Layer: 0
+  m_Name: PoolManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9087415584413663119
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6261578174991850984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1803900854657616189}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6534284858626948449
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1803900854657616189}
+  - component: {fileID: 4208886451879645940}
+  m_Layer: 0
+  m_Name: SessionManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1803900854657616189
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534284858626948449}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14933243, y: 0.982659, z: 0.26547456}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6219583495480427796}
+  - {fileID: 9087415584413663119}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4208886451879645940
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6534284858626948449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bab2d1a455221e42a0c152e54c89690, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _poolInitializeDatas:
+  - _prefab: {fileID: 1935668130406584776, guid: 6d04edfcd6e7d374e8209a925f72a28a, type: 3}
+    _count: 10
+  - _prefab: {fileID: 5161866247255962462, guid: 32c627650f107e7469c3878d7814b3fb, type: 3}
+    _count: 6
+  - _prefab: {fileID: 2662094394877791372, guid: 6e550154fcdbadf41849b904e49ea5a7, type: 3}
+    _count: 6
+  - _prefab: {fileID: 801716981379509732, guid: 986ccd7d55e02164191c92b89b983857, type: 3}
+    _count: 30
+  - _prefab: {fileID: 2651898944463761947, guid: d224ce820b261be4c801b1cec98c35e1, type: 3}
+    _count: 6
+  - _prefab: {fileID: 2905460347181671800, guid: 4798070990299524fbd318b9100fa335, type: 3}
+    _count: 6
+  - _prefab: {fileID: 4186048668926128132, guid: 04172025a000c8044ad5ecbbcb27ed33, type: 3}
+    _count: 6
+  - _prefab: {fileID: 4986485753177860471, guid: bad636c525ab1d5418aed2682d92db10, type: 3}
+    _count: 6
+  - _prefab: {fileID: 6241181140692523534, guid: 156a378c339c2c14e8a74b6ba472894d, type: 3}
+    _count: 6
+  _teams:
+  - _spawnPlace: {fileID: 0}
+    _id: 1
+  - _spawnPlace: {fileID: 0}
+    _id: 2
+  _players:
+  - _playerCharacterPrefab: {fileID: 7516318347440976568, guid: d6afa504034619f4a9ae76ae12f1bd53, type: 3}
+    _name: Bot Poliglot
+  - _playerCharacterPrefab: {fileID: 7516318347440976568, guid: d6afa504034619f4a9ae76ae12f1bd53, type: 3}
+    _name: Bot Buterbrod
+  - _playerCharacterPrefab: {fileID: 7516318347440976568, guid: d6afa504034619f4a9ae76ae12f1bd53, type: 3}
+    _name: Bot Patriot
+  - _playerCharacterPrefab: {fileID: 7516318347440976568, guid: d6afa504034619f4a9ae76ae12f1bd53, type: 3}
+    _name: Bot Azot
+  - _playerCharacterPrefab: {fileID: 202886488904809462, guid: 6a5e2e97938a3b84c83c3bb7136c551b, type: 3}
+    _name: Bot Bloknot
+  - _playerCharacterPrefab: {fileID: 202886488904809462, guid: 6a5e2e97938a3b84c83c3bb7136c551b, type: 3}
+    _name: Bot Pilot
+  - _playerCharacterPrefab: {fileID: 202886488904809462, guid: 6a5e2e97938a3b84c83c3bb7136c551b, type: 3}
+    _name: Bot Anekdot
+  - _playerCharacterPrefab: {fileID: 202886488904809462, guid: 6a5e2e97938a3b84c83c3bb7136c551b, type: 3}
+    _name: Bot Kompot
+  _chooseHeroCanvas: {fileID: 0}
+  _hippoButton: {fileID: 0}
+  _chameloButton: {fileID: 0}
+  _clientData:
+    _playerCharacterPrefab: {fileID: 202886488904809462, guid: 6a5e2e97938a3b84c83c3bb7136c551b, type: 3}
+    _name: Developer
+  _hippoPrefab: {fileID: 7516318347440976568, guid: d6afa504034619f4a9ae76ae12f1bd53, type: 3}
+  _chameloPrefab: {fileID: 202886488904809462, guid: 6a5e2e97938a3b84c83c3bb7136c551b, type: 3}
+  _parentForPool: {fileID: 9087415584413663119}
+  _playerController: {fileID: 8301852288458091052}
+--- !u!1 &8301852288458091052
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6219583495480427796}
+  - component: {fileID: 4746500037698218303}
+  - component: {fileID: 3807110315707180994}
+  - component: {fileID: 8268098785817434099}
+  - component: {fileID: 46177905020036334}
+  m_Layer: 0
+  m_Name: PlayerController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6219583495480427796
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8301852288458091052}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -2.1048207, y: -0.052707553, z: -7.5078793}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1803900854657616189}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &4746500037698218303
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8301852288458091052}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!81 &3807110315707180994
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8301852288458091052}
+  m_Enabled: 1
+--- !u!114 &8268098785817434099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8301852288458091052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7e3b83daab9fe848962d165271fc6d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _controllerCanvas: {fileID: 0}
+  _myMovementJoystick: {fileID: 0}
+  _myCameraScroll: {fileID: 0}
+  _myFireJoystick: {fileID: 0}
+  _myCamera: {fileID: 4746500037698218303}
+  _jumpButton: {fileID: 0}
+  _aimButton: {fileID: 0}
+  _crouchButton: {fileID: 0}
+  _reloadButton: {fileID: 0}
+  _weapon1Button: {fileID: 0}
+  _weapon2Button: {fileID: 0}
+  _grenadeButton: {fileID: 0}
+  _fireOffsettUi: {fileID: 0}
+  _healthBarUI: {fileID: 0}
+  _sprintSlider: {fileID: 0}
+  _sprintText: {fileID: 0}
+  _defaultFOV: 60
+--- !u!114 &46177905020036334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8301852288458091052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
