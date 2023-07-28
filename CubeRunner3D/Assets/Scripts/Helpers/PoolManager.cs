@@ -31,7 +31,7 @@ public static class PoolManager
             {
                 var result = _pooledObject[gameObject.name].Last;
                 _pooledObject[gameObject.name].RemoveLast();
-                return result.Value;
+                return result.Value == null ? InstantiateObject(gameObject) : result.Value; ;
             }
             else
             {
@@ -46,7 +46,8 @@ public static class PoolManager
     }
     public static void InitializePool(GameObject gameObjectPrefab, int count)
     {
-        _pooledObject = new Dictionary<string, LinkedList<GameObject>>();
+        _pooledObject[gameObjectPrefab.name] = new LinkedList<GameObject>();
+
         for (int i = 0; i < count; i++)
         {
             var gameObject = InstantiateObject(gameObjectPrefab);

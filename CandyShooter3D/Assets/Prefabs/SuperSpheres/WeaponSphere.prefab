@@ -5117,7 +5117,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _specialization: {fileID: 3826066774312040963}
-  _rotationSpeed: 1
+  _rotationSpeed: 0.2
   _liftingSpeed: 1
   _liftAmplitude: 0.1
   _disappearTime: 0.5

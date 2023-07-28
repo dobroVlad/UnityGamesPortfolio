@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameStarter : MonoBehaviour
 {
-    [SerializeField] private List<PoolInitializeData> _poolInitializeDatas = new List<PoolInitializeData>();
+    [SerializeField] private List<PoolInitializeData> _poolInitializeData = new List<PoolInitializeData>();
     [SerializeField] private Transform _parentForPool;
     [SerializeField] private TextMeshProUGUI _tabToPlayText;
 
@@ -25,7 +25,7 @@ public class GameStarter : MonoBehaviour
     {
         PoolManager.SetParentForObject(_parentForPool);
 
-        foreach (var data in _poolInitializeDatas)
+        foreach (var data in _poolInitializeData)
         {
             PoolManager.InitializePool(data.Prefab, data.Count);
         }
