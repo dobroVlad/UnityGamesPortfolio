@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: New Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 8
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 0
+      enableAlphaDilation: 0
+    secondaryTextureSettings: {}
+    variantMultiplier: 1
+    packables:
+    - {fileID: 102900000, guid: b5349aba9a8eba14fa90594fd7308c56, type: 3}
+    bindAsDefault: 1
+    isAtlasV2: 0
+    cachedData: {fileID: 0}
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: a38b35e184a466d44b7c463cdadc4455, type: 3}
+  - {fileID: 21300000, guid: 3414db238570a3b478f511ca7d9c9018, type: 3}
+  - {fileID: 21300000, guid: c27ba1331f0f51d4987f4ffd63a0e576, type: 3}
+  - {fileID: 21300000, guid: 9ba233732ceb7a446ab3ae8f8833272f, type: 3}
+  - {fileID: 21300000, guid: 15acf464d46cac242b2b6096b34b8cae, type: 3}
+  - {fileID: 21300000, guid: f6800c06b35f92944a5c10ff38b689fb, type: 3}
+  - {fileID: 21300000, guid: 8505ed56200b04646848568d7b805105, type: 3}
+  - {fileID: 21300000, guid: ea886ac7f286ca848a0f5e0a67012e93, type: 3}
+  - {fileID: 21300000, guid: eea2bb785614a21488f61ad39dc9dabd, type: 3}
+  - {fileID: 21300000, guid: f9646f9a79d10074fbad6646ba33ad3d, type: 3}
+  - {fileID: 21300000, guid: 9c32cc1ca57a19e428517970acc667b9, type: 3}
+  - {fileID: 21300000, guid: 2ae9084d03bd0ea4ba662f470501cb47, type: 3}
+  - {fileID: 21300000, guid: 998be62e1e95c6b4ca47e232ea2fcd5b, type: 3}
+  - {fileID: 21300000, guid: d957f6ce9bd0b9e45964170576793413, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - icon-start
+  - terrain-ground
+  - pedal-gas-normal
+  - pedal-brake-normal
+  - Tire
+  - button-bg
+  - pedal-brake-pressed
+  - driver-head
+  - icon-restart
+  - Car
+  - pedal-gas-pressed
+  - sky-bg
+  - terrain-surface
+  - driver-body
+  m_RenderDataMap: {}
+  m_Tag: New Sprite Atlas
+  m_IsVariant: 0
